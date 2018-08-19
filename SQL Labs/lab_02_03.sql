@@ -1,0 +1,3 @@
+SELECT last_name, SALARY
+  FROM employees
+  WHERE salary NOT BETWEEN 5000 AND 12000;
